@@ -1,0 +1,243 @@
+{
+    "intents": [
+        {
+            "tag": "help",
+            "patterns": [
+                "can you help me",
+                "i need help",
+                "help me",
+                "i need assistance",
+                "can you assist me",
+                "i have a question",
+                "i need support",
+                "i need some help",
+                "can i ask something",
+                "i have a doubt",
+                "please help me",
+                "help required",
+                "i am confused",
+                "can you guide me",
+                "i am stuck",
+                "need your help",
+                "can i get help",
+                "how can you help me",
+                "i need help with admission",
+                "need assistance for course details",
+                "need help with jee/neet details",
+                "can you support me"
+            ],
+            "keywords": [
+                "help",
+                "support",
+                "assist",
+                "assistance",
+                "doubt",
+                "question",
+                "confused",
+                "guide",
+                "stuck",
+                "query",
+                "issue",
+                "problem",
+                "ask",
+                "clarify",
+                "understand",
+                "know more"
+            ],
+            "responses": [
+                "Of course! I'm here to help. What do you need assistance with?",
+                "I'd be happy to help! What can I do for you?",
+                "Absolutely! Tell me what you need help with and I'll do my best to assist you.",
+                "I'm here to support you. Ask me anything about admissions, courses, fees, or schedules."
+            ]
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "what courses do you offer",
+                "which exams do you prepare for",
+                "jee courses",
+                "neet coaching available?",
+                "do you offer CET coaching",
+                "11th 12th science courses?",
+                "subject wise classes",
+                "what is your course list",
+                "do you teach physics chemistry math biology",
+                "classes for entrance exams"
+            ],
+            "keywords": [
+                "courses",
+                "subjects",
+                "exams",
+                "coaching",
+                "entrance",
+                "jee",
+                "neet",
+                "cet",
+                "science",
+                "11th",
+                "12th"
+            ],
+            "responses": [
+                "We offer coaching for JEE, NEET, CET, 11th & 12th Science, and career counselling.",
+                "ARMS Academy provides training for JEE Mains & Advanced, NEET, CET, and school-level science subjects.",
+                "Yes! We cover Physics, Chemistry, Mathematics, and Biology for all competitive and academic levels."
+            ]
+        },
+        {
+            "tag": "admission",
+            "patterns": [
+                "how can I take admission",
+                "what is the admission process",
+                "how to enroll",
+                "i want to join your classes",
+                "how to register",
+                "how to get started",
+                "is admission open",
+                "can i apply now",
+                "do you have entrance test",
+                "how do i apply"
+            ],
+            "keywords": [
+                "admission",
+                "enroll",
+                "register",
+                "apply",
+                "join",
+                "process",
+                "entrance"
+            ],
+            "responses": [
+                "To take admission, you can visit our branch or fill out the online registration form on our website.",
+                "You can enroll by contacting us directly or booking a demo session first.",
+                "Admissions are open! Let me help you get started. Would you like to book a counseling session?"
+            ]
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "what are the fees",
+                "jee course fees",
+                "neet coaching fees",
+                "total cost of coaching",
+                "fee structure",
+                "price of courses",
+                "how much does it cost",
+                "monthly fees",
+                "yearly fees"
+            ],
+            "keywords": [
+                "fees",
+                "charges",
+                "price",
+                "cost",
+                "amount",
+                "payment"
+            ],
+            "responses": [
+                "Our fee structure varies by course. Please mention which course you’re interested in (JEE, NEET, CET, etc.)",
+                "The fees depend on the duration and type of course. Want me to connect you to a counselor for exact details?",
+                "We offer flexible payment plans. Contact us for detailed course-wise pricing."
+            ]
+        },
+        {
+            "tag": "timings",
+            "patterns": [
+                "what are class timings",
+                "when do classes start",
+                "jee batch timing",
+                "neet timing",
+                "evening classes available?",
+                "morning or afternoon classes",
+                "time slots for classes",
+                "schedule of batches",
+                "class schedule"
+            ],
+            "keywords": [
+                "timing",
+                "schedule",
+                "batch",
+                "slot",
+                "time",
+                "class time"
+            ],
+            "responses": [
+                "Our batches run in morning, afternoon, and evening slots. Please mention your preferred course to get exact timings.",
+                "We offer flexible timing options for JEE, NEET, and 11-12 batches.",
+                "The schedule depends on the batch and course. Want me to connect you to our counselor?"
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "where are you located",
+                "what is your address",
+                "location of arms academy",
+                "how to reach your center",
+                "nearest landmark",
+                "can i visit your center"
+            ],
+            "keywords": [
+                "location",
+                "address",
+                "map",
+                "reach",
+                "center",
+                "institute"
+            ],
+            "responses": [
+                "We’re located in Pune. Here's our address: [Insert Address Here]",
+                "You can visit our Pune branch. We’ll send you a Google Maps link shortly.",
+                "Sure! We're near [Landmark]. Can I share the location map with you?"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "how can i contact you",
+                "whatsapp number",
+                "phone number please",
+                "give me contact info",
+                "how to talk to you",
+                "i want to call you",
+                "email id"
+            ],
+            "keywords": [
+                "contact",
+                "phone",
+                "whatsapp",
+                "call",
+                "email",
+                "reach"
+            ],
+            "responses": [
+                "You can call us at: +91-XXXXXXXXXX or email us at info@armsacademy.org.",
+                "Our contact number is +91-XXXXXXXXXX. You can also reach us on WhatsApp.",
+                "Feel free to reach out! Would you like me to connect you directly?"
+            ]
+        },
+        {
+            "tag": "demo_class",
+            "patterns": [
+                "can i book demo",
+                "i want a trial class",
+                "how to get demo class",
+                "can i try before joining",
+                "free demo class available?",
+                "book a counseling session"
+            ],
+            "keywords": [
+                "demo",
+                "trial",
+                "sample",
+                "counseling",
+                "free class"
+            ],
+            "responses": [
+                "Yes! We offer free demo classes. Would you like me to help you book one?",
+                "Absolutely! Just share your preferred course and time, and we’ll schedule a free demo.",
+                "You can book a free counseling or trial session through our form or by calling us."
+            ]
+        }
+    ]
+}
